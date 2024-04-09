@@ -1,0 +1,52 @@
+/* Your CSS code here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator {
+    color: aqua;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    width: 23%;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .operator {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  
